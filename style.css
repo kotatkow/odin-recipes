@@ -2,11 +2,35 @@
     background-color: red;
     color: aliceblue;
     text-align: center;
+    margin: 10px auto;
+    width: 400px;
+    padding: 10px;
+    border: thick double rgb(238, 231, 231)
 }
 
-.menu{
+.images{
+    display: block;
+    padding: 15px;
+    background-color: yellow;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+
+ul{
     font-size: 24px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin: 0px auto;
+    padding: 0px;
+    background-color: aqua;
+    width: 1030px;
+}
+
+li{
+    display: inline-block;
+    padding: 15px;
+    background-color: aqua;
 }
 
 .sauce{
@@ -14,9 +38,11 @@
     color: rgb(226, 186, 8);
 }
 
+
 .chicken{
     background-color: rgb(250, 151, 2);
     color: rgb(73, 42, 2);
+    display: inline-block;
 }
 
 .pickle{
